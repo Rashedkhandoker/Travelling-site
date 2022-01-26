@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Mochiy Pop P One', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Sedgwick Ave', cursive;
+}
+body {
+  font-size: 14px;
+}
+.container {
+  width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  font: #000;
+  /* background-color:  rgb(239, 240, 239); */
+}
+header {
+  background: url(img/bg-travel.jpg) no-repeat fixed center center / cover;
+}
+.header-text {
+  padding: 120px 0;
+}
+.header-text h1 {
+  font-size: 80px;
+  color: rgb(236, 81, 88);
+}
+.header-text p {
+  font-size: 30px;
+  color: rgb(247, 101, 4);
+  margin: 30px 0;
+}
+.btn {
+  padding: 14px 16px;
+  font-size: 20px;
+  background: rgb(245, 129, 206);
+  text-decoration: none;
+  margin-right: 20px;
+  color: rgb(243, 243, 253);
+  border-radius: 5px;
+}
+.btn-red {
+  background: rgb(241, 123, 123) !important;
+  color: rgb(3, 3, 3);
+}
+.btn-light {
+  background: rgb(236, 217, 217);
+  color: rgb(7, 7, 7);
+}
+/* header:hover {
+    opacity: 0.5;
+  } */
+
+nav {
+  background-color: rgb(228, 248, 210);
+  position: sticky;
+  top: 0;
+}
+.menu {
+  list-style: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.menu li {
+  float: left;
+}
+.menu li a {
+  text-decoration: none;
+  color: rgb(43, 41, 41);
+  display: inline-block;
+  font-size: 20px;
+  padding: 14px 18px;
+  transition: 0.8s ease-in-out;
+  border-radius: 5%;
+}
+.menu li a:hover {
+  background-color: rgb(236, 81, 88);
+}
+.relative {
+  background-color: #000;
+  font-size: 20px;
+  color: rgb(20, 19, 19);
+  height: 200px;
+  width: 500px;
+  text-align: center;
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: url(img/Saint-martin.jpg) no-repeat center center / cover;
+}
+.relative img {
+  height: 10%;
+  width: 10px;
+}
+.relative1 {
+  background-color: #000;
+  font-size: 20px;
+  color: rgb(20, 19, 19);
+  height: 200px;
+  width: 500px;
+  text-align: center;
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: url(img/coxs-bazar.jpg) no-repeat center center / cover;
+}
+.relative1 h2 {
+  text-align: left;
+  top: 50;
+  padding: auto;
+}
+.relative h2 {
+  text-align: left;
+  top: 50;
+  padding: auto;
+}
+.absolute {
+  font-size: 10px;
+  height: 10%;
+  width: 12%;
+  background-color: red;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
